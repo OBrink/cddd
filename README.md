@@ -16,12 +16,12 @@ rdkit
 scikit-learn
 ```
 ### Conda
-Create a new enviorment:
+Create a new environment:
 ```bash
 git clone https://github.com/jrwnter/cddd.git
 cd cddd
 conda env create -f environment.yml
-source activate cddd
+conda activate cddd
 ```
 Install tensorflow without GPU support:
 ```bash
